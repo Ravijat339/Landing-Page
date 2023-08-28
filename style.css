@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+body{
+    background-image: url('img3.jpg');
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+.navbar{
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+.logo{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.nav-icons a{
+    width: 140px;
+    height: 25px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-icons a:hover{
+   transform: scale(1.2);
+   color: black;
+  border: 2px solid white;
+   font-weight: 700;
+   border-radius: 20px;
+   cursor: pointer;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 420px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+.search-input{
+    width: 100%;
+    font-family: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+    cursor: pointer;
+}
+
+.hero-section{
+  
+    height: 380px;
+    width: 500px;
+    margin-top: 120px;
+    margin-left: 130px;
+}
+.first{
+    font-size: 2rem;
+    font-style: bold;
+ color: rgb(6, 6, 5);
+ font-weight: 700;
+ 
+}
+.second{
+    font-size: 5rem;
+    font-style: bold;
+ color: rgb(255, 255, 255,0.8);
+ font-weight: 900;
+}
+.fourth{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    color: rgb(10, 10, 9);
+}
+.login-btn{
+    display: flex;
+align-items: center;
+
+}
+
+.btn{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    margin-right: 15px;
+    border-radius: 6px;
+  transition: background-color 0.5s transform 0.5s;
+}
+.btn:hover{
+    background: #ff004f;
+    transform: translateY(-5px);
+}
+
+.footer {
+    color: white;
+    padding: 50px;
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 1.2rem;
+  }
+  .footer-address {
+    margin-bottom: 10px;
+  }
+  .footer-phone {
+    margin-bottom: 10px;
+    color: white;
+  }
+  .footer-phone a{
+    color: black;
+  }
+  .social-icons {
+    list-style: none;
+    padding: 0;
+  
+  }
+  .social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .social-icons a {
+    color: white; 
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.button{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.5s;
+}
+.button:hover{
+    background: #ff004f;
+
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: transparent;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i{
+    color: #ff004f;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-section {
+        margin-top: 30px;
+    }
+
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .nav-icons {
+        display: none;
+    }
+
+    .nav-search {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .search-input {
+        font-size: 0.9rem;
+    }
+
+    .search-icon {
+        font-size: 1rem;
+    }
+
+    .first {
+        font-size: 1.8rem;
+    }
+
+    .second {
+        font-size: 3rem;
+    }
+
+    .fourth {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        width: 100px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        padding: 40px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+}
